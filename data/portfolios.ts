@@ -160,191 +160,20 @@ export const portfolio = [
   },
 ];
 
-export const extras = [
-  // {
-  //   imageUrl: "/were-not-really-strangers.png",
-  //   imageAlt: "We're Not Really Strangers",
-  //   title: "We're Not Really Strangers",
-  //   description:
-  //     "I ❤️ this game and wanted to create a possibility to play with my friends online and get to know each other even from a distance. (COVID tough times 😞)",
-  //   url: "https://wnrs.app/",
-  //   techs: [
-  //     {
-  //       icon: "nextjs",
-  //       name: "NextJS",
-  //     },
-  //     {
-  //       icon: "react",
-  //       name: "React",
-  //     },
-  //     {
-  //       icon: "chakra-ui",
-  //       name: "Chakra UI",
-  //     },
-  //     {
-  //       icon: "sass",
-  //       name: "SASS",
-  //     },
-  //     {
-  //       icon: "vercel",
-  //       name: "Vercel",
-  //     },
-  //     {
-  //       icon: "pwa",
-  //       name: "PWA",
-  //     },
-  //   ],
-  // },
-  {
-    imageUrl: "/receituario-medico.png",
-    imageAlt: "Receituário Médico SUS",
-    title: "Receituário Médico SUS",
-    description:
-      "It helps doctors from the Brazilian public health system make medical prescriptions for free.",
-    url: "https://receituariomedico.app/",
-    techs: [
-      {
-        icon: "nextjs",
-        name: "NextJS",
-      },
-      {
-        icon: "chakra-ui",
-        name: "Chakra UI",
-      },
-      {
-        icon: "supabase",
-        name: "Supabase",
-      },
-      {
-        icon: "upstash",
-        name: "Upstash",
-      },
-      {
-        icon: "vercel",
-        name: "Vercel",
-      },
-      {
-        icon: "pwa",
-        name: "PWA",
-      },
-    ],
-  },
-  {
-    imageUrl: "/my-agenda-cultural.gif",
-    imageAlt: "Virada Cultural",
-    title: "My Cultural Agenda",
-    description:
-      "PWA website that helps you organize your agenda at large events",
-    url: "https://carnaval-sp-ec736.web.app/",
-    techs: [
-      {
-        icon: "angular",
-        name: "Angular",
-      },
-      {
-        icon: "firebase",
-        name: "Firebase",
-      },
-      {
-        icon: "ruby",
-        name: "Ruby",
-      },
-      {
-        icon: "rails",
-        name: "Rails",
-      },
-      {
-        icon: "pwa",
-        name: "PWA",
-      },
-    ],
-  },
-];
-
-export const volunteer = [
-  {
-    imageUrl: "/geleia-total.gif",
-    imageAlt: "Geleia Total",
-    title: "Geleia Total",
-    description: "Promote the culture and art of the state of Piauí - 🇧🇷",
-    url: "https://www.geleiatotal.com.br/",
-    techs: [
-      {
-        icon: "wordpress",
-        name: "Wordpress",
-      },
-      {
-        icon: "php",
-        name: "PHP",
-      },
-      {
-        icon: "digitalocean",
-        name: "Digital Ocean",
-      },
-      {
-        icon: "pwa",
-        name: "PWA",
-      },
-    ],
-  },
-  {
-    imageUrl: "/mapa-aborto-legal.gif",
-    imageAlt: "Mapa Aborto Legal",
-    title: "Mapa Aborto Legal",
-    description:
-      "All about legal abortion in 🇧🇷 - What situations are allowed, what is needed, which hospitals to turn to and more information",
-    url: "https://mapaabortolegal.org/",
-    techs: [
-      {
-        icon: "wordpress",
-        name: "Wordpress",
-      },
-      {
-        icon: "php",
-        name: "PHP",
-      },
-    ],
-  },
-];
-
 export const posts = [
   {
-    imageUrl: "/post-strapi-railway.webp",
-    imageAlt: "Deploying Strapi 4 to Railway",
-    title: "Deploying Strapi 4 to Railway",
-    description: "Step by step on how to deploying Strapi 4 to Railway",
-    url: "https://dev.to/candidosales/deploying-strapi-4-to-railway-589b",
+    imageUrl: "https://miro.medium.com/max/1400/1*mghGE8YWajy_BXq2DzrnPA.png",
+    imageAlt: "Charles Proxy + Postman",
+    title: "Charles Proxy + Postman",
+    description: "Mocking request and response with Charles Proxy and Postman",
+    url: "https://victorhvs.medium.com/mocking-request-and-response-with-charles-proxy-and-postman-733171c9eccf",
   },
   {
-    imageUrl: "/post-medicina.jpeg",
-    imageAlt: "O que a medicina pode aprender com a programação?",
-    title: "O que a medicina pode aprender com a programação?",
+    imageUrl: "https://miro.medium.com/max/1400/0*fdTZBWC1G_jjvgSS",
+    imageAlt: "Firebase: Evitando falir antes de monetizar seu projeto",
+    title: "Firebase: Evitando falir antes de monetizar seu projeto",
     description:
-      "Esse texto são apenas reflexões que foram geradas durante diálogos entre um engenheiro de software e uma médica.",
-    url: "https://medium.com/@candidosales/o-que-a-medicina-pode-aprender-com-a-programa%C3%A7%C3%A3o-4ca71bd94fc4",
-  },
-  {
-    imageUrl: "/post-1.png",
-    imageAlt: "How I got a job offer in Canada",
-    title: "How I got a job offer in Canada",
-    description:
-      "In this article, I’ll present the process I did to get the job offer through VanHack",
-    url: "https://blog.usejournal.com/how-did-i-get-a-job-offer-in-canada-3351937653ad",
-  },
-  {
-    imageUrl: "/post-2.png",
-    imageAlt: "Como consegui uma oferta de emprego no Canadá",
-    title: "Como consegui uma oferta de emprego no Canadá",
-    description:
-      "Vou apresentar o processo que fiz para conseguir a oferta de emprego através da VanHack",
-    url: "https://medium.com/@candidosales/como-consegui-uma-oferta-de-emprego-no-canad%C3%A1-d8d8e717a379",
-  },
-  {
-    imageUrl: "/post-3.png",
-    imageAlt: "Como fiz o intercâmbio para o Canadá",
-    title: "Como fiz o intercâmbio para o Canadá",
-    description:
-      "Vou contar a minha experiência de como me mudei para o Canadá",
-    url: "https://medium.com/@candidosales/como-consegui-uma-oferta-de-emprego-no-canad%C3%A1-d8d8e717a379",
+      "Uma das maiores vantagens do Firebase também pode vir tornar-se o maior pesadelo: a facilidade em escalar. Não é difícil achar relatos de startups ou desenvolvedores que viram seu negócio escalar da noite para o dia com milhões de novos acessos e usuários, gerando uma dívida exorbitante totalmente não prevista!",
+    url: "https://victorhvs.medium.com/firebase-evitando-falir-antes-de-monetizar-seu-projeto-20e346fe59f7",
   },
 ];

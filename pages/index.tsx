@@ -5,7 +5,7 @@ import Topbar from "../components/topbar";
 import {ArrowForwardIcon, ExternalLinkIcon} from "@chakra-ui/icons";
 import {Box, Flex, Link, SimpleGrid, useDisclosure} from "@chakra-ui/react";
 import {chooseTranslate} from "../utils/translate";
-import {extras, portfolio, posts, volunteer} from "../data/portfolios";
+import {portfolio, posts} from "../data/portfolios";
 import {useRouter} from "next/router";
 
 const Home = (): ReactElement => {
@@ -45,7 +45,7 @@ const Home = (): ReactElement => {
               <p className="about-description">
                 {t.about.imBrazilian}{" "}
                 <Link
-                  href="https://www.cisco.com/c/en_ca/index.html/"
+                  href="https://ciandt.com/"
                   isExternal
                 >
                   {t.about.company}
@@ -54,7 +54,7 @@ const Home = (): ReactElement => {
                 {t.about.focusedOnBuilding}
               </p>
             </section>
-            <section className="grid">
+            {/* <section className="grid">
               <div className="grid-header">
                 <h3>🧳 {t.portfolio.title}</h3>
                 <p>{t.portfolio.description}</p>
@@ -76,53 +76,7 @@ const Home = (): ReactElement => {
                   />
                 ))}
               </SimpleGrid>
-            </section>
-            <section className="grid">
-              <div className="grid-header">
-                <h3>✨ {t.extras.title}</h3>
-                <p>{t.extras.description}</p>
-              </div>
-              <SimpleGrid
-                className="portfolios"
-                columns={{sm: 1, md: 2, lg: 3}}
-                gap={6}
-              >
-                {extras.map((p, index) => (
-                  <Portfolio
-                    key={index}
-                    imageUrl={p.imageUrl}
-                    imageAlt={p.imageAlt}
-                    title={p.title}
-                    description={p.description}
-                    url={p.url}
-                    techs={p.techs as [{icon: string; name: string}]}
-                  />
-                ))}
-              </SimpleGrid>
-            </section>
-            <section className="grid">
-              <div className="grid-header">
-                <h3>🤝 {t.volunteer.title}</h3>
-                <p>{t.volunteer.description}</p>
-              </div>
-              <SimpleGrid
-                className="portfolios"
-                columns={{sm: 1, md: 2, lg: 3}}
-                gap={6}
-              >
-                {volunteer.map((p, index) => (
-                  <Portfolio
-                    key={index}
-                    imageUrl={p.imageUrl}
-                    imageAlt={p.imageAlt}
-                    title={p.title}
-                    description={p.description}
-                    url={p.url}
-                    techs={p.techs as [{icon: string; name: string}]}
-                  />
-                ))}
-              </SimpleGrid>
-            </section>
+            </section>     */}
             <section className="grid">
               <div className="grid-header">
                 <h3>📰 {t.blog.title}</h3>

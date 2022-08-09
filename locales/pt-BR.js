@@ -3,12 +3,12 @@ export default {
   getInTouch: "Entre em contato",
   about: {
     hiMyNameIs: "Oi, meu nome é",
-    name: "Cândido Sales.",
+    name: "Victor Hugo.",
     buildThings: "Eu construo coisas para",
     webAndMobile: "a web e mobile.",
     imBrazilian:
-      "Sou brasileiro 🇧🇷 do Piauí e engenheiro de software baseado em Kitchener 🇨🇦  especializado em criar (e ocasionalmente projetar) experiências digitais excepcionais. Atualmente, trabalho na",
-    company: "Cisco",
+      "Sou brasileiro 🇧🇷 do Piauí. Atualmente, trabalho na",
+    company: "CI&T",
     focusedOnBuilding:
       "focada na construção de produtos acessíveis e centrados no ser humano.",
   },

@@ -9,6 +9,6 @@ export function chooseTranslate(locale: string): any {
     case "en-US":
       return enUS;
     default:
-      return enUS;
+      return ptBR;
   }
 }

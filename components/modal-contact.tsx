@@ -76,7 +76,7 @@ const ModalContact = ({isOpen, onClose, locale}): ReactElement => {
           <p>{t.contact.feelFreeToSpeak}</p>
           <Stack direction="row" spacing={4} className="modal-contact">
             <Link
-              href="mailto:candidosg@gmail.com"
+              href="mailto:vhv.sousa@gmail.com"
               isExternal
               title="by E-mail ..."
             >
@@ -89,7 +89,7 @@ const ModalContact = ({isOpen, onClose, locale}): ReactElement => {
               </Button>
             </Link>
             <Link
-              href="https://wa.me/13068800349"
+              href="https://wa.me/5511948486498"
               isExternal
               title="or WhatsApp"
             >

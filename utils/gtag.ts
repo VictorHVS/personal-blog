@@ -1,6 +1,6 @@
 import { URL } from 'url';
 
-export const GA_TRACKING_ID = 'G-KF2R0QYPX7';
+export const GA_TRACKING_ID = 'G-';
 
 // https://developers.google.com/analytics/devguides/collection/gtagjs/pages
 export const pageview = (url: URL) => {

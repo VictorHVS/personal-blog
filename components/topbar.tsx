@@ -27,7 +27,7 @@ const Topbar = ({changeLanguage, locale}): ReactElement => {
           title="Profile image"
           loading="lazy"
         />
-        <Select
+        {/* <Select
           className="select-language"
           variant="filled"
           size="sm"
@@ -36,7 +36,7 @@ const Topbar = ({changeLanguage, locale}): ReactElement => {
         >
           <option value="en-US">🇺🇸</option>
           <option value="pt-BR">🇧🇷</option>
-        </Select>
+        </Select> */}
       </div>
       <div className="header-actions">
         <Button
@@ -49,7 +49,7 @@ const Topbar = ({changeLanguage, locale}): ReactElement => {
           {t.getInTouch}
         </Button>
         <Tooltip hasArrow label="" placement="auto">
-          <Link href="https://www.linkedin.com/in/candidosales/" isExternal>
+          <Link href="https://www.linkedin.com/in/victorhvs/" isExternal>
             <IconButton
               variant="ghost"
               size="md"
@@ -59,7 +59,7 @@ const Topbar = ({changeLanguage, locale}): ReactElement => {
           </Link>
         </Tooltip>
         <Tooltip hasArrow label="" placement="auto">
-          <Link href="https://medium.com/@candidosales" isExternal>
+          <Link href="https://medium.com/@victorhvs" isExternal>
             <IconButton
               variant="ghost"
               size="md"
@@ -69,7 +69,7 @@ const Topbar = ({changeLanguage, locale}): ReactElement => {
           </Link>
         </Tooltip>
         <Tooltip hasArrow label="" placement="auto">
-          <Link href="https://github.com/candidosales" isExternal>
+          <Link href="https://github.com/VictorHVS" isExternal>
             <IconButton
               variant="ghost"
               size="md"

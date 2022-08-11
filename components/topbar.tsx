@@ -7,7 +7,7 @@ import {
   useDisclosure,
   Select,
 } from "@chakra-ui/react";
-import {RiLinkedinBoxFill, RiGithubFill, RiMediumFill} from "react-icons/ri";
+import {RiLinkedinBoxFill, RiGithubFill, RiMediumFill, RiTwitterFill} from "react-icons/ri";
 import Image from "next/image";
 import ModalContact from "./modal-contact";
 import {chooseTranslate} from "../utils/translate";
@@ -20,7 +20,7 @@ const Topbar = ({changeLanguage, locale}): ReactElement => {
     <header className="header">
       <div className="avatar">
         <Image
-          src="/me-2.png"
+          src="/me.png"
           width={100}
           height={100}
           alt="Profile image"
@@ -75,6 +75,16 @@ const Topbar = ({changeLanguage, locale}): ReactElement => {
               size="md"
               aria-label="Github"
               icon={<RiGithubFill />}
+            />
+          </Link>
+        </Tooltip>
+        <Tooltip hasArrow label="" placement="auto">
+          <Link href="https://twitter.com/victorhvs_" isExternal>
+            <IconButton
+              variant="ghost"
+              size="md"
+              aria-label="Twitter"
+              icon={<RiTwitterFill />}
             />
           </Link>
         </Tooltip>

@@ -11,7 +11,7 @@ module.exports = withPWA({
   },
   i18n: {
     locales: ["en-US", "pt-BR", "en"],
-    defaultLocale: "en-US",
+    defaultLocale: "pt-BR",
     localeDetection: false,
   },
   sassOptions: {

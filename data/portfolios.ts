@@ -162,14 +162,14 @@ export const portfolio = [
 
 export const posts = [
   {
-    imageUrl: "https://miro.medium.com/max/1400/1*mghGE8YWajy_BXq2DzrnPA.png",
+    imageUrl: "/blog/charles_with_postman.png",
     imageAlt: "Charles Proxy + Postman",
     title: "Charles Proxy + Postman",
     description: "Mocking request and response with Charles Proxy and Postman",
     url: "https://victorhvs.medium.com/mocking-request-and-response-with-charles-proxy-and-postman-733171c9eccf",
   },
   {
-    imageUrl: "https://miro.medium.com/max/1400/0*fdTZBWC1G_jjvgSS",
+    imageUrl: "/blog/firebase_evitando_falir.png",
     imageAlt: "Firebase: Evitando falir antes de monetizar seu projeto",
     title: "Firebase: Evitando falir antes de monetizar seu projeto",
     description:

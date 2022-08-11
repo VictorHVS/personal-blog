@@ -6,8 +6,7 @@ export default {
     name: "Victor Hugo.",
     buildThings: "Eu construo coisas para",
     webAndMobile: "a web e mobile.",
-    imBrazilian:
-      "Sou brasileiro 🇧🇷 do Piauí. Atualmente, trabalho na",
+    imBrazilian: "Sou brasileiro 🇧🇷 do Piauí. Atualmente, trabalho na",
     company: "CI&T",
     focusedOnBuilding:
       "focada na construção de produtos acessíveis e centrados no ser humano.",

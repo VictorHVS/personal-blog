@@ -30,7 +30,7 @@ const App = ({Component, pageProps}: AppProps): any => {
   return (
     <ChakraProvider theme={theme}>
       <Head>
-        <title>Candido Sales Gomes</title>
+        <title>Victor Hugo V Sousa</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover"

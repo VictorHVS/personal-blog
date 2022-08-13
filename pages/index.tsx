@@ -106,18 +106,9 @@ const Home = (): ReactElement => {
               {t.footer.letsWorkTogether}
               <ArrowForwardIcon />
             </h1>
-            <Box justifyContent="space-between" display="flex">
+            <Box justifyContent="flex-start" display="flex">
               <p>
                 {t.footer.madeBy}
-                <Link color="blue.500" href="https://nextjs.org/" isExternal>
-                  nextjs
-                </Link>
-                {t.and}
-                <Link color="blue.500" href="https://vercel.com/" isExternal>
-                  vercel
-                </Link>
-              </p>
-              <p>
                 <Link
                   color="blue.500"
                   href="https://twitter.com/candidosales"

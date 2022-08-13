@@ -1,5 +1,6 @@
 export default {
   and: "e",
+  by: "por",
   getInTouch: "Entre em contato",
   about: {
     hiMyNameIs: "Oi, meu nome é",
@@ -32,7 +33,7 @@ export default {
   },
   footer: {
     letsWorkTogether: "Vamos trabalhar juntos",
-    madeBy: "feito com",
+    madeBy: "Gostou deste template? É open-source e feito pelo meu amigo",
   },
   contact: {
     itWillBe: "Será um prazer falar com você sobre:",
